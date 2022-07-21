@@ -1,0 +1,33 @@
+head,
+body {
+    font-family: monospace;
+    text-align: center;
+    background-color: rgb(47, 47, 47);
+    color: greenyellow;
+    width: 200px;
+}
+
+#editButton {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: yellowgreen;
+    transition-duration: 0.4s;
+    border: solid 1px red;
+}
+
+/* This happens when cursor hovers over hackButton */
+#editButton:hover {
+    background-color: red;
+    color: black;
+}
+
+#title {
+    margin: 15px;
+    font-size: 1.75rem;
+}
